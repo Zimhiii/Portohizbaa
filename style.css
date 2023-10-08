@@ -25,7 +25,7 @@ div.imgwrp {
   height: 250px;
   box-shadow: 5px 5px 25px grey;
   border-radius: 50%;
-  padding: 5px;
+  padding: 10px;
   display: flex;
   justify-content: center;
 }
@@ -70,7 +70,7 @@ p {
 }
 .containertentang p {
   text-indent: 50px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Profil Diri */
@@ -87,13 +87,44 @@ div.containerprofil {
 
 .containerprofil h2,
 p {
+  display: inline;
   color: white;
 }
 .containerprofil li {
   color: white;
+  font-size: 30px;
+}
+.profil {
+  display: flex;
 }
 
 .profil1 {
-  width: 50%;
-  font-size: 30px;
+  width: 40%;
+}
+.profil2 {
+  width: 60%;
+  list-style-type: none;
+}
+
+/* Pendidikan */
+div.containerpendidikan {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(image/y-so-serious.png);
+  width: 95%;
+  opacity: 1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.containerpendidikan h2 {
+  color: white;
+}
+
+.containerpendidikan ol {
+  padding-left: 10px;
+}
+.containerpendidikan li {
+  color: white;
 }
