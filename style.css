@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: ;
 }
 body {
   background-image: url(image/y-so-serious-white.png);
@@ -32,7 +33,7 @@ div.imgwrp {
 }
 
 div.bag2 {
-  padding-left: 10px;
+  padding-left: 30px;
   width: 100%;
   display: flex;
 }
@@ -47,4 +48,43 @@ div.bag2 {
 .ket h1,
 h1 {
   font-size: 40px;
+}
+
+/* About me */
+
+div.containertentang {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(image/y-so-serious.png);
+  width: 95%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.containertentang h2,
+p {
+  color: white;
+}
+.containertentang p {
+  text-indent: 50px;
+}
+
+/* Profil Diri */
+div.containerprofil {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(image/y-so-serious.png);
+  width: 95%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.containerprofil h2,
+p {
+  color: white;
+}
+.containerprofil p {
+  text-indent: 50px;
 }
