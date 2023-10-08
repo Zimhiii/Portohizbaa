@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(image/y-so-serious-white.png);
+  background-repeat: repeat;
+}
+
+div.container1 {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  display: flex;
+}
+
+div.bag1 {
+  display: flex;
+}
+
+div.imgwrp {
+  background-color: azure;
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 20px grey;
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+.imgblt {
+  border-radius: 50%;
+}
+
+div.bag2 {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.ket {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ket h1,
+h1 {
+  font-size: 40px;
+}
